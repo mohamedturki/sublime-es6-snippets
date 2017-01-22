@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+it('renders <${1:Component}>', () => {
+  expect(${2:ParentComponent}.find(${1:Component}).length).toEqual(1)
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>itfindsc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
